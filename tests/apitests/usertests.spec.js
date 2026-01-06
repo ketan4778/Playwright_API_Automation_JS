@@ -15,3 +15,6 @@ test('Read user API - static payload', async () => {
     expect((await response.json()).username).toBe(userPayload.username);
     console.log('Username from Response: +++++++', (await response.json()).username);
 })
+
+test('Create user API - dynamic payload', async () => {
+})
