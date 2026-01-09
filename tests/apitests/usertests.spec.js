@@ -16,7 +16,5 @@ test('Read user API - static payload', async () => {
     console.log('Username from Response: +++++++', (await response.json()).username);
 })
 
-test('Update  user API - static payload', async () => {
-
-  
+test('Create user API - dynamic payload', async () => {
 })
