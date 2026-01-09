@@ -36,3 +36,6 @@ test('Update user API - dynamic payload', async () => {
   console.log('Read after update body:', readResponseBody);
   expect(response1.status()).toBe(200);
 })
+
+test('Create user API - dynamic payload', async () => {
+})
