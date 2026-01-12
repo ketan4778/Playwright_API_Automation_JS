@@ -37,5 +37,7 @@ test('Update user API - dynamic payload', async () => {
   expect(response1.status()).toBe(200);
 })
 
-test('Create user API - dynamic payload', async () => {
+test('Delete user API - dynamic payload', async () => {
+  const response = await UserEndpoint.deleteUser(userPayload.username);
+  expect(response.status()).toBe(200);
 })

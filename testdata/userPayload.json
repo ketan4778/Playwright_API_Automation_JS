@@ -1,10 +1,18 @@
-{
-  "id": 101,
-  "username": "testuser1",
-  "firstName": "Test",
-  "lastName": "User",
-  "email": "testuser1@gmail.com",
-  "password": "password123",
-  "phone": "9999999999",
+[
+  {
+  "id": 102,
+  "username": "testuser11",
+  "firstName": "Test1",
+  "lastName": "User1",
+  "email": "testuser11@gmail.com",
+  "password": "password1213",
+  "phone": "9999999991",
   "userStatus": 0
 }
+,
+  {
+  "firstName": "Test2",
+  "lastName": "User2",
+  "email": "testuser12@gmail.com"
+  }
+]

@@ -24,6 +24,12 @@ class StoreEndpoint {
     );
     return response;
   }
+
+  static async getInventory() {
+    const apiContext = await ApiClient.getContext();
+    const response = await apiContext.get(routeProps.base_url + '/store/inventory');
+    return response;
+  }
 }
 
 module.exports = { StoreEndpoint };

@@ -15,3 +15,10 @@ test('Get order by ID API - static payload', async () => {
     expect(response.status()).toBe(200);  
 
 });
+
+test('Get Store Inventory API', async () => {
+    const response = await StoreEndpoint.getInventory();
+    console.log('Response body:', await response.json());
+    expect(response.status()).toBe(200);
+});
+
